@@ -35,7 +35,8 @@
         android:layout_height="wrap_content"
         android:backgroundTint="@color/white"
         android:src="@drawable/ic_round_add"
-        app:layout_anchor="@id/bottomAppBar"
+        app:layout_anchor="@+id/bottomAppBar"
+        app:layout_anchorGravity="top|center"
         app:maxImageSize="40dp"
         app:tint="@color/mainBlue" />
 
