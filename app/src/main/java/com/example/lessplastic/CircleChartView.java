@@ -41,7 +41,7 @@ public class CircleChartView extends View {
         this.alto = getHeight();
 
         //pintar fondo
-        canvas.drawRGB(240, 240, 240);
+        canvas.drawRGB(255, 255, 255);
         //pincel negro
         @SuppressLint("DrawAllocation") Paint pincelNegro = new Paint();
         pincelNegro.setColor(Color.BLACK);
